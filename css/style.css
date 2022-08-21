@@ -1,0 +1,31 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+body{
+  background:hsl(210, 46%, 95%);
+  font-size:13px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+section{
+  width:50%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
