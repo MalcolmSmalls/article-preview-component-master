@@ -10,9 +10,14 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-img{
+/* img{
   display: block;
   margin: 0 auto;
+} */
+
+.icon{
+  width:8%;
+  border-radius:100px;
 }
 
 body{
@@ -23,9 +28,23 @@ body{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-section{
+.main{
   width:50%;
+  background:white;
+  border-radius:30px;
+  margin:200px auto;
+  display:flex;
 }
+
+.left{
+  width:100%;
+  height:100%;
+
+}
+.leftPic{
+  width:100%;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
