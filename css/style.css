@@ -16,7 +16,9 @@
 } */
 
 .icon{
-  width:8%;
+  margin-top:5px;
+  width:10%;
+  height:10%;
   border-radius:100px;
 }
 
@@ -58,6 +60,41 @@ p{
 .right{
   margin-top:20px;
   margin-left:50px;
+}
+
+.bottom{
+  display:flex;
+  width:100%;
+  gap:0px 20px;
+  margin-bottom:50px;
+}
+
+.footnotes{
+  flex-direction:column;
+}
+
+.footnotes span{
+  margin-bottom:20px;
+}
+
+h4 {
+  margin-top:10px;
+  margin-bottom:5px;
+}
+
+.share {
+  /* margin-left:220px; */
+  /* align-self:center; */
+}
+
+button{
+  margin-left:220px;
+  align-self:center;
+  background:hsl(210, 46%, 95%);
+  width:30px;
+  border-style:none;
+  height:30px;
+  border-radius:50px;
 }
 /* .leftPic{
   object-fit:cover;
