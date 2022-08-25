@@ -99,9 +99,11 @@ button{
   width: auto;
   height:auto;
   position: absolute;
-  bottom: 50%;
-  left: 50%;
-  transform-origin: bottom left;
+  /* bottom: 50%;
+  left: 50%; */
+  bottom: 40%;
+  left: 69%;
+  transform-origin: bottom;
   transform: scale(0);
   transition: .5s;
   transition-delay: .5s;
@@ -110,7 +112,8 @@ button{
   flex-direction:row;
   align-items:center;
   border-radius:10px;
-  padding:8px 50px;
+  padding:8px 30px;
+  box-shadow: 2px 10px rgba(0, 0, 0, 0.074);
 }
 
 .socialbuttons{
@@ -123,6 +126,9 @@ button{
 }
 .shareTitle{
   text-transform: uppercase;
+  color:hsl(212, 23%, 69%);
+  letter-spacing: 3px;
+  margin-right:10px;
 }
 .shares.active{
   transform: scale(1);
